@@ -1,9 +1,46 @@
 /* My Styles */
-figcaption {
-    font-family: 'RedHatDisplay-Variable', sans-serif;
-    font-size: 1.5em;
-    font-weight: 600;
-    color: blueviolet;    
-    padding: 10px;
-    margin: 0;
-}
+:root {
+    --zinc900: #18181b;
+    --white: #ffffff;
+  }
+  
+  body{
+    background-color: var(--zinc900);
+  /* Center the content and constrain to 75% of the screen   */
+    max-width: 75vw;
+    margin: auto;
+    
+  }
+  
+  .gallery {
+  /*     column-gap: 1em; */
+      column-count: 4;
+      margin: 1.5em;
+      font-size: 1em;
+    }
+    
+  figure {
+      border-radius: 1.5em;
+      display: inline-block;
+  /*     padding: 1em; */
+      margin: 0 0 1em;
+      width: 100%;
+      box-sizing: border-box;
+      transition: all .25s ease-in-out;
+      background-color:blue;
+    }
+  
+   img {
+      max-width: 100%;
+       border-radius: 1.5em;
+      vertical-align: bottom;
+    }
+    
+    figcaption {
+        font-family: 'RedHatDisplay-Variable', sans-serif;
+        font-size: 1.5em;
+        font-weight: 600;
+        color: blueviolet;    
+        padding: 10px;
+        margin: 0;
+    }
