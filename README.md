@@ -16,7 +16,7 @@ Here is link to the API endpoint for the _Collection_ for roster Spring 2022 Stu
 https://v1.nocodeapi.com/pmanikoth/webflow/wtzODovSIJsRXhZg
 
 ## Sources
-List your sources here
+* Subsequent-sibling combinator (W3)[https://www.w3.org/TR/selectors-3/#sibling-combinators] (Stack Overflow)[https://stackoverflow.com/questions/40104005/how-to-call-another-class-on-hover-in-css]
 
 ## Why Does This Exist? 
 Webflow (and many others) have a no-code CMS, and GUI for designing the templates. Webflow (and many others) also have an API that is accessible as a _headless CMS_. 
