@@ -13,7 +13,6 @@ body{
 }
   
 .gallery {
-/*     column-gap: 1em; */
     column-count: 4;
     margin: 1.5em;
 }
@@ -21,12 +20,11 @@ body{
 figure {
     border-radius: 1.5em;
     display: inline-block;
-/*     padding: 1em; */
     margin: 0 0 1em;
     width: 100%;
     box-sizing: border-box;
-    background-color:blue;
-}
+    /* background-color:red; */
+  }
   
 img {
     max-width: 100%;
@@ -34,7 +32,7 @@ img {
     vertical-align: bottom;
 }
 
-figcaption {
+/* figcaption {
     font-family: 'RedHatDisplay-Variable', sans-serif;
     font-size: 1.5em;
     font-weight: 600;
@@ -44,9 +42,30 @@ figcaption {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    visibility: hidden;
+} */
+
+figcaption, p{
+    font-family: 'RedHatDisplay-Variable', sans-serif;
+    font-size: 1em;
+    position: absolute;
+    /* color: red; */
+    /* Hide until hover */
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 /* hover */
-img:hover ~ figcaption {
+img:hover ~ figcaption{
+    position: relative;
     color: white;
-}
+    visibility: visible;
+    transition: all .25s ease-in-out;
+  }
+  img:hover ~ figcaption p{
+    position: relative;
+    visibility: visible;
+    transition: all .25s ease-in-out;
+  }
