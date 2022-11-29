@@ -11,7 +11,7 @@ Get, Show, and Style a Class Roster via our API data
 * Apply foundations of a _headless CMS_
 
 ## Sources
-* Red Hat Display Font (Fontshre)[https://www.fontshare.com/fonts/red-hat-display]
-* Subsequent-sibling combinator (W3)[https://www.w3.org/TR/selectors-3/#sibling-combinators] (Stack Overflow)[https://stackoverflow.com/questions/40104005/how-to-call-another-class-on-hover-in-css]
-* Layout based on June Lawless's Project (Github)[https://github.com/uyenjune795/api-class-roster]
-* (CSS Gradient)[https://cssgradient.io/]
+* Red Hat Display Font [Fontshre](https://www.fontshare.com/fonts/red-hat-display)
+* Subsequent-sibling combinator [W3](https://www.w3.org/TR/selectors-3/#sibling-combinators) [Stack Overflow](https://stackoverflow.com/questions/40104005/how-to-call-another-class-on-hover-in-css)
+* Layout based on June Lawless's Project [Github](https://github.com/uyenjune795/api-class-roster)
+* [CSS Gradient](https://cssgradient.io/)
