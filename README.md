@@ -1,5 +1,5 @@
 # Class Roster via our API data
-![Screenshot](https://raw.githubusercontent.com/mervinsoriano/roster/main/Screen%20Shot%202022-11-22%20at%2010.23.33%20AM.png)
+![Screenshot](https://raw.githubusercontent.com/mervinsoriano/roster/main/Class%20Roster%20Screenshot%20copy.png)
 
 ## What Is This? 
 Get, Show, and Style a Class Roster via our API data
